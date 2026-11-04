@@ -1,0 +1,14 @@
+name: GitHub Actions 練習
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 実行メッセージ
+        run: echo "GitHub Actionsが実行されました！"
