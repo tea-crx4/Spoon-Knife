@@ -1,0 +1,14 @@
+# 環境設定ファイル
+.env
+
+# PHPライブラリ
+/vendor/
+
+# JavaScriptライブラリ
+/node_modules/
+
+# ログファイル
+*.log
+
+# 一時ファイル
+*.tmp
